@@ -50,7 +50,7 @@ function App() {
   return (
     <>
       <h1>My Agora States!</h1>
-      <Form addDiscussion={addDiscussion}></Form>
+      <Form addDiscussion={addDiscussion}>수정</Form>
       <Discussions
         discussions={discussions}
         deleteDiscussion={deleteDiscussion}
